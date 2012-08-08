@@ -53,5 +53,19 @@ public class JpaResource {
 		}
 		return g;
 	}
+	
+	public static void createNewGender(Gender gender){
+		EntityManager em = JpaResource.getEMF().createEntityManager();
+		gender.setGenderid("aaa");
+		try{
+			em.getTransaction().begin();
+			em.persist(gender);
+			em.getTransaction().commit();
+		}catch(Exception ex){
+			ex.printStackTrace();
+		}finally{
+	        em.close();
+	    }
+	}
 
 }

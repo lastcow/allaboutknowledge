@@ -34,6 +34,10 @@ public class HomeAction {
 		user.userName = "zhijiang chen";
 		user.secret = "99058700";
 		
+		Gender gender = new Gender();
+		gender.setGender("Unknow");
+		JpaResource.createNewGender(gender);
+		
 		return user;
 	}
 }

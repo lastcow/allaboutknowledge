@@ -28,7 +28,7 @@ public class UUIDSequence extends Sequence implements SessionCustomizer{
 	
 	@Override
 	public void customize(Session session) throws Exception {
-		UUIDSequence sequence = new UUIDSequence("system-uuid");
+		UUIDSequence sequence = new UUIDSequence("SYSTEM-UUID");
  
 		session.getLogin().addSequence(sequence);
 	}
