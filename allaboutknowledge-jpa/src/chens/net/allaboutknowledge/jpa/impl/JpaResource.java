@@ -18,18 +18,6 @@ public class JpaResource {
 
 	private static EntityManagerFactory emf;
 	private static final String PersistenceUnit = "allaboutknowledge-jpa";
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// Just for testing only.
-		EntityManager em = JpaResource.getEMF().createEntityManager();
-		try{
-			Gender g = em.find(Gender.class, "93c964f0-d607-11e1-9b23-0800200c9a66");
-		}catch(Exception ex){
-			ex.printStackTrace();
-		}
-	}
 	
 	/***
 	 * Create EntityManagerFactory
@@ -41,31 +29,6 @@ public class JpaResource {
 		}
 		
 		return emf;
-	}
-	
-	public static Gender getGender(){
-		Gender g = null;
-		EntityManager em = JpaResource.getEMF().createEntityManager();
-		try{
-			g = em.find(Gender.class, "93c964f0-d607-11e1-9b23-0800200c9a66");
-		}catch(Exception ex){
-			ex.printStackTrace();
-		}
-		return g;
-	}
-	
-	public static void createNewGender(Gender gender){
-		EntityManager em = JpaResource.getEMF().createEntityManager();
-		gender.setGenderid("aaa");
-		try{
-			em.getTransaction().begin();
-			em.persist(gender);
-			em.getTransaction().commit();
-		}catch(Exception ex){
-			ex.printStackTrace();
-		}finally{
-	        em.close();
-	    }
 	}
 
 }

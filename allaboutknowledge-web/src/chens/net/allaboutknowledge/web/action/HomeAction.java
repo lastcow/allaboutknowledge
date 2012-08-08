@@ -5,13 +5,12 @@ package chens.net.allaboutknowledge.web.action;
 
 import javax.inject.Inject;
 import javax.inject.Named;
-import javax.persistence.EntityManager;
 
 import org.jboss.seam.international.status.Messages;
 import org.jboss.seam.remoting.annotations.WebRemote;
 import org.jboss.solder.core.FullyQualified;
 
-import chens.net.allaboutknowledge.jpa.impl.JpaResource;
+import chens.net.allaboutknowledge.jpa.impl.AAKJpaImplCore;
 import chens.net.allaboutknowledge.jpa.model.Gender;
 
 /**
@@ -25,7 +24,14 @@ public class HomeAction {
 
 	@WebRemote
 	public User getStr(String name) {
-		Gender g = JpaResource.getGender();
+		Gender g = (Gender) AAKJpaImplCore.getModelById(Gender.class, "93c964f0-d607-11e1-9b23-0800200c9a66");
+		try {
+			g.setGender("Where");
+			AAKJpaImplCore.updateModel(g);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		messages.error("Message recorded " + g.getGender());
 		messages.info("Message recorded");
@@ -34,9 +40,6 @@ public class HomeAction {
 		user.userName = "zhijiang chen";
 		user.secret = "99058700";
 		
-		Gender gender = new Gender();
-		gender.setGender("Unknow");
-		JpaResource.createNewGender(gender);
 		
 		return user;
 	}
