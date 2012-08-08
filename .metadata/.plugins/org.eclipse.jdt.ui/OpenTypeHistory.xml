@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=allaboutknowledge-jpa/src&lt;chens.net.allaboutknowledge.jpa.sequence{UUIDSequence.java[UUIDSequence" modifiers="1" timestamp="1344352089000"/>
+<typeInfo handle="=allaboutknowledge-jpa/src&lt;chens.net.allaboutknowledge.jpa.model{Member.java[Member" modifiers="1" timestamp="1344356285000"/>
+<typeInfo handle="=allaboutknowledge-web/src&lt;chens.net.allaboutknowledge.web.action{HomeAction.java[HomeAction" modifiers="1" timestamp="1344354782000"/>
+<typeInfo handle="=allaboutknowledge-jpa/src&lt;chens.net.allaboutknowledge.jpa.model{Gender.java[Gender" modifiers="1" timestamp="1344356285000"/>
+<typeInfo handle="=allaboutknowledge-jpa/src&lt;chens.net.allaboutknowledge.jpa.model{Accounttype.java[Accounttype" modifiers="1" timestamp="1344356284000"/>
+<typeInfo handle="=allaboutknowledge-jpa/src&lt;chens.net.allaboutknowledge.jpa.model{Accountvalidation.java[Accountvalidation" modifiers="1" timestamp="1344356284000"/>
+<typeInfo handle="=allaboutknowledge-jpa/src&lt;chens.net.allaboutknowledge.jpa.model{Memberparticipatequestion.java[Memberparticipatequestion" modifiers="1" timestamp="1344356285000"/>
+</typeInfoHistroy>

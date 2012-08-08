@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.chens.clinicalhub.db.entity.User"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.jboss.seam.ScopeType"/>
+<fullyQualifiedTypeName name="org.jboss.seam.annotations.Factory"/>
+<fullyQualifiedTypeName name="com.chens.clinicalhub.entity.User"/>
+<fullyQualifiedTypeName name="com.chens.clinicalhub.util.MD5Hash"/>
+<fullyQualifiedTypeName name="org.jboss.seam.annotations.AutoCreate"/>
+<fullyQualifiedTypeName name="java.security.MessageDigest"/>
+<fullyQualifiedTypeName name="javax.persistence.Query"/>
+<fullyQualifiedTypeName name="com.chens.clinicalhub.entity.Role"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="org.jboss.seam.annotations.Name"/>
+<fullyQualifiedTypeName name="org.jboss.seam.security.Identity"/>
+<fullyQualifiedTypeName name="org.jboss.seam.annotations.In"/>
+<fullyQualifiedTypeName name="org.jboss.solder.properties.Properties"/>
+<fullyQualifiedTypeName name="org.jboss.solder.resourceLoader.Resource"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="chens.net.allaboutknowledge.web.util.Util"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="javax.inject.Inject"/>
+<fullyQualifiedTypeName name="org.jboss.seam.international.status.Messages"/>
+<fullyQualifiedTypeName name="org.eclipse.persistence.sequencing.Sequence"/>
+<fullyQualifiedTypeName name="org.eclipse.persistence.config.SessionCustomizer"/>
+<fullyQualifiedTypeName name="java.util.UUID"/>
+<fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="chens.net.allaboutknowledge.jpa.model.Member"/>
+<fullyQualifiedTypeName name="chens.net.allaboutknowledge.jpa.model.Gender"/>
+</qualifiedTypeNameHistroy>
