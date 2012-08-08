@@ -32,7 +32,7 @@ public class HomeAction {
 		//throw new Exception("EEE");
 		User user = new User();
 		user.userName = "zhijiang chen";
-		user.secret = "990587";
+		user.secret = "99058700";
 		
 		return user;
 	}
