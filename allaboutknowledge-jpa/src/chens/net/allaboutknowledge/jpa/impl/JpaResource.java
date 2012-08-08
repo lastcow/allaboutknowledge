@@ -1,0 +1,57 @@
+/**
+ * 
+ */
+package chens.net.allaboutknowledge.jpa.impl;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+import chens.net.allaboutknowledge.jpa.model.Gender;
+import chens.net.allaboutknowledge.jpa.model.Member;
+
+/**
+ * @author lastcow
+ *
+ */
+public class JpaResource {
+
+	private static EntityManagerFactory emf;
+	private static final String PersistenceUnit = "allaboutknowledge-jpa";
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// Just for testing only.
+		EntityManager em = JpaResource.getEMF().createEntityManager();
+		try{
+			Gender g = em.find(Gender.class, "93c964f0-d607-11e1-9b23-0800200c9a66");
+		}catch(Exception ex){
+			ex.printStackTrace();
+		}
+	}
+	
+	/***
+	 * Create EntityManagerFactory
+	 * @return
+	 */
+	public static EntityManagerFactory getEMF(){
+		if(emf == null){
+			emf = Persistence.createEntityManagerFactory(PersistenceUnit);
+		}
+		
+		return emf;
+	}
+	
+	public static Gender getGender(){
+		Gender g = null;
+		EntityManager em = JpaResource.getEMF().createEntityManager();
+		try{
+			g = em.find(Gender.class, "93c964f0-d607-11e1-9b23-0800200c9a66");
+		}catch(Exception ex){
+			ex.printStackTrace();
+		}
+		return g;
+	}
+
+}

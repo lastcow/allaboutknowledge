@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="allaboutknowledge-jpa" transaction-type="JTA">
+		<jta-data-source>java:jboss/datasources/allaboutknowledgeDS</jta-data-source>
+		<class>chens.net.allaboutknowledge.jpa.model.Accounttype</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Accountvalidation</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Agerange</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Category</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Country</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Education</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Educationlevel</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Emailformat</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Employeement</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Experienceyear</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Gender</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Member</class>
+		<class>chens.net.allaboutknowledge.jpa.model.MemberHasMessenger</class>
+		<class>chens.net.allaboutknowledge.jpa.model.MemberHasRole</class>
+		<class>chens.net.allaboutknowledge.jpa.model.MemberHasRolePK</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Membermonitquestion</class>
+		<class>chens.net.allaboutknowledge.jpa.model.MembermonitquestionPK</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Memberparticipatequestion</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Messenger</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Packagedesc</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Personaldesc</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Personalhobby</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Personalinfo</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Pricepackage</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Purchasehistory</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Question</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Ranking</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Role</class>
+		<class>chens.net.allaboutknowledge.jpa.model.Status</class>
+		<properties>
+			<property name="eclipselink.session.customizer" value="chens.net.allaboutknowledge.jpa.sequence.UUIDSequence"/>
+		</properties>
+	</persistence-unit>
+</persistence>
