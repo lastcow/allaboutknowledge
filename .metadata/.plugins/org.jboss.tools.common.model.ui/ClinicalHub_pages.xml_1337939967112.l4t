@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout resource="/ClinicalHub/WebContent/WEB-INF/pages.xml">
+ <TreeFormPage>
+  <Memento type="FileSeamPages22">
+   <Memento collapsed="false" type="Pages Configuration"/>
+   <Memento collapsed="false" type="Advanced"/>
+  </Memento>
+  <Memento type="SeamPageFolderPage22"/>
+  <Memento type="SeamPage22">
+   <Memento collapsed="false" type="Page"/>
+   <Memento collapsed="false" type="Advanced"/>
+  </Memento>
+  <Memento type="SeamPageNavigation21">
+   <Memento collapsed="false" type="Navigation"/>
+  </Memento>
+  <Memento type="SeamPageRule21">
+   <Memento collapsed="false" type="Rule"/>
+  </Memento>
+  <Memento type="SeamPageRedirect21">
+   <Memento collapsed="false" type="Redirect"/>
+   <Memento collapsed="false" type="Advanced"/>
+  </Memento>
+  <Memento type="SeamPageException21">
+   <Memento collapsed="false" type="Exception"/>
+  </Memento>
+  <Memento type="SeamPageMessage">
+   <Memento collapsed="false" type="Message"/>
+  </Memento>
+ </TreeFormPage>
+</Layout>

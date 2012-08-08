@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package chens.net.allaboutknowledge.web.util;
+
+/**
+ * @author lastcow
+ *
+ */
+public class Util implements Serializable {
+
+	public String getUserName(){
+		return "陈纸浆";
+	}
+}

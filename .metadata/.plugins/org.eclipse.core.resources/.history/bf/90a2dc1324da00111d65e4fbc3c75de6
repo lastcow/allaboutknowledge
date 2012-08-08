@@ -1,0 +1,16 @@
+action.package=com.chens.allaboutknowledge.session
+action.sources=/allaboutknowledge/src
+eclipse.preferences.version=1
+model.package=com.chens.allaboutknowledge.entity
+model.sources=/allaboutknowledge/src
+seam.ear.project=allaboutknowledge
+seam.ejb.project=allaboutknowledge
+seam.project.connection.profile=allaboutknowledge
+seam.project.deployment.type=ear
+seam.project.settings.version=1.1
+seam.project.web.root.folder=/allaboutknowledge/WebContent
+seam.runtime.name=jboss-seam-2.3.0.Beta2_
+seam.test.creating=false
+seam.test.project=allaboutknowledge
+test.package=org.domain.allaboutknowledge.test
+test.sources=/allaboutknowledge/src

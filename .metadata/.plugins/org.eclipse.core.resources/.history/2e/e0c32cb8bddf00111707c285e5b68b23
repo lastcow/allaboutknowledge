@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package chens.net.allaboutknowledge.web.action;
+
+import javax.inject.Inject;
+import javax.inject.Named;
+
+import org.jboss.seam.international.status.Messages;
+import org.jboss.seam.remoting.annotations.WebRemote;
+import org.jboss.solder.core.FullyQualified;
+
+/**
+ * @author lastcow
+ *
+ */
+@FullyQualified @Named
+public class HomeAction {
+	
+	@Inject Messages messages;
+
+	@WebRemote
+	public String getStr(String name){
+		messages.error("Message recorded");
+		messages.info("Message recorded");
+		return "whats up, " + name;
+	}
+}

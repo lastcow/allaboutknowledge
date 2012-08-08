@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">      
+		<h:head>
+		<title><ui:insert name="pageTitle">Page Title</ui:insert></title>
+		<h:outputStylesheet library="css" name="style.css" />
+		<h:outputScript library="js" name="jquery-1.7.2.min.js" />
+		<h:outputScript library="js" name="modernizr.custom.js" />
+		<h:outputScript library="js" name="video.min.js" />
+		<script type="text/javascript" src="../seam/resource/remoting/resource/remote.js?compress=false"></script>
+		<script type="text/javascript" src="../seam/resource/remoting/interface.js?homeAction"></script>
+		</h:head>
+
+<h:body>
+<header id="header" class="container clearfix">
+
+	<a href="index.html" id="logo">
+		<h:graphicImage library="img" name="logo.png" />
+	</a>
+
+	<nav id="main-nav">
+		
+		<ul>
+			<li class="current">
+				<a href="index.html" data-description="#{msgs['menu.home.desc']}">#{msgs['menu.home']}</a>
+				<ul>
+					<li><a href="logos-slider.html">Logos Slider</a></li>
+					<li><a href="photos-slider.html">Photos Slider</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="elements.html" data-description="All the different stuff">#{msgs['menu.features']}</a>
+				<ul>
+					<li><a href="about-us.html">About Us</a></li>
+					<li><a href="our-team.html">Our Team</a>
+						<ul>
+							<li><a href="we-are-hiring.html">We are hiring</a></li>
+						</ul>
+					</li>
+					<li><a href="elements.html">Elements</a></li>
+					<li><a href="pricing-tables.html">Pricing Tables</a></li>
+					<li><a href="columns.html">Columns</a></li>
+					<li><a href="#">Third Level Item</a>
+						<ul>
+							<li><a href="#">This is a simple example</a></li>
+							<li><a href="#">Of the third level</a></li>
+							<li><a href="#">Navigation item</a></li> 
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="blog.html" data-description="What we think">#{msgs['menu.blog']}</a>
+				<ul>
+					<li><a href="single-post.html">Single Post</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="portfolio-4-columns.html" data-description="Work we are proud of">#{msgs['menu.portfolio']}</a>
+				<ul>
+					<li><a href="portfolio-2-columns.html">2 Columns</a></li>
+					<li><a href="portfolio-3-columns.html">3 Columns</a></li>
+					<li><a href="portfolio-4-columns.html">4 Columns</a></li>
+					<li><a href="single-project.html">Single Project</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="contact-us.html" data-description="Enquire here">#{msgs['menu.contact']}</a>
+			</li>
+		</ul>
+
+	</nav><!-- end #main-nav -->
+	
+</header><!-- end #header -->
+
+<section id="content" class="container clearfix">
+	<ui:insert name="body">Body Here</ui:insert>
+</section><!-- end #content -->
+
+<footer id="footer" class="clearfix">
+
+	<div class="container">
+
+		<div class="three-fourth">
+
+			<nav id="footer-nav" class="clearfix">
+
+				<ul>
+					<li><a href="index.html">#{msgs['menu.home']}</a></li>
+					<li><a href="elements.html">#{msgs['menu.features']}</a></li>
+					<li><a href="blog.html">#{msgs['menu.blog']}</a></li>
+					<li><a href="portfolio-4-columns.html">#{msgs['menu.portfolio']}</a></li>
+					<li><a href="contact-us.html">#{msgs['menu.contact']}</a></li>
+				</ul>
+				
+			</nav><!-- end #footer-nav -->
+
+			<ul class="contact-info">
+				<li class="address">#{msgs['label.address']}</li>
+				<li class="phone">#{msgs['label.contactphone']}</li>
+				<li class="email"><a href="#{msgs['label.sitecontact']}">#{msgs['label.sitecontact']}</a></li>
+			</ul><!-- end .contact-info -->
+			
+		</div><!-- end .three-fourth -->
+
+		<div class="one-fourth last">
+
+			<span class="title">#{msgs['label.stayconnected']}</span>
+
+			<ul class="social-links">
+				<li class="twitter"><a href="#">Twitter</a></li>
+				<li class="facebook"><a href="#">Facebook</a></li>
+				<li class="digg"><a href="#">Digg</a></li>
+				<li class="vimeo"><a href="#">Vimeo</a></li>
+				<li class="youtube"><a href="#">YouTube</a></li>
+				<li class="skype"><a href="#">Skype</a></li>
+			</ul><!-- end .social-links -->
+
+		</div><!-- end .one-fourth.last -->
+		
+	</div><!-- end .container -->
+
+</footer><!-- end #footer -->
+
+<footer id="footer-bottom" class="clearfix">
+
+	<div class="container">
+
+		<ul>
+			<li>#{msgs['label.allaboutknowledge']} &copy; 2012</li>
+			<li><a href="#">Legal Notice</a></li>
+			<li><a href="#">Terms</a></li>
+		</ul>
+
+	</div><!-- end .container -->
+
+</footer><!-- end #footer-bottom -->
+</h:body>
+<h:outputScript library="js" name="respond.min.js" />
+<h:outputScript library="js" name="jquery.easing-1.3.min.js" />
+<h:outputScript library="js" name="jquery.fancybox.pack.js" />
+<h:outputScript library="js" name="jquery.smartStartSlider.min.js" />
+<h:outputScript library="js" name="jquery.jcarousel.min.js" />
+<h:outputScript library="js" name="jquery.cycle.all.min.js" />
+<h:outputScript library="js" name="jquery.isotope.min.js" />
+<h:outputScript library="js" name="jquery.touchSwipe.min.js" />	
+<h:outputScript library="js" name="custom.js" />		
+</html>

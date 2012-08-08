@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<watchExpressions>\n<expression enabled\="true" text\="super.getResultList()"/>\n<expression enabled\="true" text\="credentials.getUsername()"/>\n<expression enabled\="true" text\="hash.hash(&quot;admin&quot;)"/>\n<expression enabled\="true" text\="credentials"/>\n<expression enabled\="true" text\="user"/>\n<expression enabled\="true" text\="user.getRoles()"/>\n</watchExpressions>\n

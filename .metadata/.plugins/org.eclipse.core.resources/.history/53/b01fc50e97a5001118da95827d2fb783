@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources xmlns="http://www.jboss.org/ironjacamar/schema">
+    <datasource 
+        jndi-name="seamtestDatasource"
+        enabled="true" 
+        use-java-context="true" pool-name="seamtestDatasource_pool">
+        <connection-url>jdbc:mysql://localhost:3306/ClinicalHub</connection-url>
+        <driver>@database.type@</driver>
+        <security>
+		      <user-name>root</user-name>
+		      <password></password>
+        </security>
+    </datasource>
+</datasources>

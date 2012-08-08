@@ -1,0 +1,68 @@
+package chens.net.allaboutknowledge.jpa.model;
+
+import java.io.Serializable;
+import javax.persistence.*;
+import java.util.List;
+
+
+/**
+ * The persistent class for the messenger database table.
+ * 
+ */
+@Entity
+@Table(name="messenger")
+public class Messenger implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@SequenceGenerator(name="MESSENGER_MESSENGERD_GENERATOR", sequenceName="SYSTEM-UUID")
+	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="MESSENGER_MESSENGERD_GENERATOR")
+	@Column(unique=true, nullable=false, length=36)
+	private String messengerd;
+
+	@Column(nullable=false, length=45)
+	private String name;
+
+	@Column(nullable=false, length=1)
+	private String valid;
+
+	//bi-directional many-to-one association to MemberHasMessenger
+	@OneToMany(mappedBy="messengerBean")
+	private List<MemberHasMessenger> memberHasMessengers;
+
+	public Messenger() {
+	}
+
+	public String getMessengerd() {
+		return this.messengerd;
+	}
+
+	public void setMessengerd(String messengerd) {
+		this.messengerd = messengerd;
+	}
+
+	public String getName() {
+		return this.name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getValid() {
+		return this.valid;
+	}
+
+	public void setValid(String valid) {
+		this.valid = valid;
+	}
+
+	public List<MemberHasMessenger> getMemberHasMessengers() {
+		return this.memberHasMessengers;
+	}
+
+	public void setMemberHasMessengers(List<MemberHasMessenger> memberHasMessengers) {
+		this.memberHasMessengers = memberHasMessengers;
+	}
+
+}

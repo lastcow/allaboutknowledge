@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+package chens.net.allaboutknowledge.web.beans;
+
+import javax.enterprise.context.SessionScoped;
+import javax.inject.Named;
+
+@Named("user")
+@SessionScoped
+/**
+ * @author lastcow
+ *
+ */
+public class User {
+
+	private String userName;
+	/**
+	 * 
+	 */
+	public User() {
+		this.setUserName("zhijiang chen");
+	}
+	public String getUserName() {
+		return userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+}

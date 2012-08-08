@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.hibernate.eclipse.launch.CodeGenerationLaunchConfigurationType">
+<stringAttribute key="org.hibernate.tools.configurationname" value="ClinicalHub"/>
+<booleanAttribute key="org.hibernate.tools.ejb3" value="true"/>
+<listAttribute key="org.hibernate.tools.exporters">
+<listEntry value="hbmtemplate0"/>
+<listEntry value="hbmtemplate1"/>
+<listEntry value="hbmtemplate2"/>
+<listEntry value="hbmtemplate3"/>
+<listEntry value="hbmtemplate4"/>
+<listEntry value="hbmtemplate5"/>
+<listEntry value="hbmtemplate6"/>
+<listEntry value="hbmtemplate7"/>
+<listEntry value="hbmtemplate8"/>
+<listEntry value="hbmtemplate9"/>
+</listAttribute>
+<booleanAttribute key="org.hibernate.tools.exporters.hbmtemplate0" value="true"/>
+<stringAttribute key="org.hibernate.tools.exporters.hbmtemplate0.extension_id" value="org.hibernate.tools.hbm2java"/>
+<booleanAttribute key="org.hibernate.tools.exporters.hbmtemplate1" value="true"/>
+<stringAttribute key="org.hibernate.tools.exporters.hbmtemplate1.extension_id" value="org.hibernate.tools.hbmtemplate"/>
+<mapAttribute key="org.hibernate.tools.exporters.hbmtemplate1.properties">
+<mapEntry key="file_pattern" value="{class-name}List.xhtml"/>
+<mapEntry key="for_each" value="entity"/>
+<mapEntry key="hibernatetool.util.toolclass" value="org.hibernate.eclipse.launch.SeamUtil"/>
+<mapEntry key="outputdir" value="/ClinicalHub/WebContent"/>
+<mapEntry key="template_name" value="view/list.xhtml.ftl"/>
+</mapAttribute>
+<booleanAttribute key="org.hibernate.tools.exporters.hbmtemplate2" value="true"/>
+<stringAttribute key="org.hibernate.tools.exporters.hbmtemplate2.extension_id" value="org.hibernate.tools.hbmtemplate"/>
+<mapAttribute key="org.hibernate.tools.exporters.hbmtemplate2.properties">
+<mapEntry key="file_pattern" value="{class-name}.xhtml"/>
+<mapEntry key="for_each" value="entity"/>
+<mapEntry key="hibernatetool.util.toolclass" value="org.hibernate.eclipse.launch.SeamUtil"/>
+<mapEntry key="outputdir" value="/ClinicalHub/WebContent"/>
+<mapEntry key="template_name" value="view/view.xhtml.ftl"/>
+</mapAttribute>
+<booleanAttribute key="org.hibernate.tools.exporters.hbmtemplate3" value="true"/>
+<stringAttribute key="org.hibernate.tools.exporters.hbmtemplate3.extension_id" value="org.hibernate.tools.hbmtemplate"/>
+<mapAttribute key="org.hibernate.tools.exporters.hbmtemplate3.properties">
+<mapEntry key="file_pattern" value="{class-name}.page.xml"/>
+<mapEntry key="for_each" value="entity"/>
+<mapEntry key="hibernatetool.util.toolclass" value="org.hibernate.eclipse.launch.SeamUtil"/>
+<mapEntry key="outputdir" value="/ClinicalHub/WebContent"/>
+<mapEntry key="template_name" value="view/view.page.xml.ftl"/>
+</mapAttribute>
+<booleanAttribute key="org.hibernate.tools.exporters.hbmtemplate4" value="true"/>
+<stringAttribute key="org.hibernate.tools.exporters.hbmtemplate4.extension_id" value="org.hibernate.tools.hbmtemplate"/>
+<mapAttribute key="org.hibernate.tools.exporters.hbmtemplate4.properties">
+<mapEntry key="file_pattern" value="{class-name}Edit.xhtml"/>
+<mapEntry key="for_each" value="entity"/>
+<mapEntry key="hibernatetool.util.toolclass" value="org.hibernate.eclipse.launch.SeamUtil"/>
+<mapEntry key="outputdir" value="/ClinicalHub/WebContent"/>
+<mapEntry key="template_name" value="view/edit.xhtml.ftl"/>
+</mapAttribute>
+<booleanAttribute key="org.hibernate.tools.exporters.hbmtemplate5" value="true"/>
+<stringAttribute key="org.hibernate.tools.exporters.hbmtemplate5.extension_id" value="org.hibernate.tools.hbmtemplate"/>
+<mapAttribute key="org.hibernate.tools.exporters.hbmtemplate5.properties">
+<mapEntry key="file_pattern" value="{class-name}Edit.page.xml"/>
+<mapEntry key="for_each" value="entity"/>
+<mapEntry key="hibernatetool.util.toolclass" value="org.hibernate.eclipse.launch.SeamUtil"/>
+<mapEntry key="outputdir" value="/ClinicalHub/WebContent"/>
+<mapEntry key="template_name" value="view/edit.page.xml.ftl"/>
+</mapAttribute>
+<booleanAttribute key="org.hibernate.tools.exporters.hbmtemplate6" value="true"/>
+<stringAttribute key="org.hibernate.tools.exporters.hbmtemplate6.extension_id" value="org.hibernate.tools.hbmtemplate"/>
+<mapAttribute key="org.hibernate.tools.exporters.hbmtemplate6.properties">
+<mapEntry key="actionPackage" value="com.chens.clinicalhub.session"/>
+<mapEntry key="file_pattern" value="com/chens/clinicalhub/session/{class-name}List.java"/>
+<mapEntry key="for_each" value="entity"/>
+<mapEntry key="hibernatetool.util.toolclass" value="org.hibernate.eclipse.launch.SeamUtil"/>
+<mapEntry key="outputdir" value="/ClinicalHub/src/hot"/>
+<mapEntry key="template_name" value="src/EntityList.java.ftl"/>
+</mapAttribute>
+<booleanAttribute key="org.hibernate.tools.exporters.hbmtemplate7" value="true"/>
+<stringAttribute key="org.hibernate.tools.exporters.hbmtemplate7.extension_id" value="org.hibernate.tools.hbmtemplate"/>
+<mapAttribute key="org.hibernate.tools.exporters.hbmtemplate7.properties">
+<mapEntry key="file_pattern" value="{class-name}List.page.xml"/>
+<mapEntry key="for_each" value="entity"/>
+<mapEntry key="hibernatetool.util.toolclass" value="org.hibernate.eclipse.launch.SeamUtil"/>
+<mapEntry key="outputdir" value="/ClinicalHub/WebContent"/>
+<mapEntry key="template_name" value="view/list.page.xml.ftl"/>
+</mapAttribute>
+<booleanAttribute key="org.hibernate.tools.exporters.hbmtemplate8" value="true"/>
+<stringAttribute key="org.hibernate.tools.exporters.hbmtemplate8.extension_id" value="org.hibernate.tools.hbmtemplate"/>
+<mapAttribute key="org.hibernate.tools.exporters.hbmtemplate8.properties">
+<mapEntry key="actionPackage" value="com.chens.clinicalhub.session"/>
+<mapEntry key="file_pattern" value="com/chens/clinicalhub/session/{class-name}Home.java"/>
+<mapEntry key="for_each" value="entity"/>
+<mapEntry key="hibernatetool.util.toolclass" value="org.hibernate.eclipse.launch.SeamUtil"/>
+<mapEntry key="outputdir" value="/ClinicalHub/src/hot"/>
+<mapEntry key="template_name" value="src/EntityHome.java.ftl"/>
+</mapAttribute>
+<booleanAttribute key="org.hibernate.tools.exporters.hbmtemplate9" value="true"/>
+<stringAttribute key="org.hibernate.tools.exporters.hbmtemplate9.extension_id" value="org.hibernate.tools.hbmtemplate"/>
+<mapAttribute key="org.hibernate.tools.exporters.hbmtemplate9.properties">
+<mapEntry key="file_pattern" value="menu.xhtml"/>
+<mapEntry key="for_each" value="entity"/>
+<mapEntry key="hibernatetool.util.toolclass" value="org.hibernate.eclipse.launch.SeamUtil"/>
+<mapEntry key="outputdir" value="/ClinicalHub/WebContent/layout"/>
+<mapEntry key="template_name" value="view/layout/menu.xhtml.ftl"/>
+</mapAttribute>
+<booleanAttribute key="org.hibernate.tools.jdk5" value="true"/>
+<stringAttribute key="org.hibernate.tools.outputdir" value="/ClinicalHub/src/main"/>
+<stringAttribute key="org.hibernate.tools.package" value="com.chens.clinicalhub.entity"/>
+<booleanAttribute key="org.hibernate.tools.prefercompositeids" value="true"/>
+<booleanAttribute key="org.hibernate.tools.reveng.detect_many_to_many" value="true"/>
+<booleanAttribute key="org.hibernate.tools.reveng.detect_one_to_one" value="true"/>
+<booleanAttribute key="org.hibernate.tools.reveng.detect_optimistc_lock" value="true"/>
+<booleanAttribute key="org.hibernate.tools.schema2hbm" value="true"/>
+<stringAttribute key="org.hibernate.tools.templatepath" value="/Users/lastcow/jboss-seam-2.2.2.Final/seam-gen"/>
+<booleanAttribute key="org.hibernate.tools.useOwnTemplates" value="true"/>
+</launchConfiguration>

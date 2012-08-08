@@ -1,0 +1,18 @@
+#Thu Sep 30 03:10:15 CEST 2010
+action.package=org.domain.dvdstore22.session
+action.sources=/dvdstore22-ejb/ejbModule
+eclipse.preferences.version=1
+model.package=org.domain.dvdstore22.entity
+model.sources=/dvdstore22-ejb/ejbModule
+seam.ear.project=dvdstore22-ear
+seam.ejb.project=dvdstore22-ejb
+seam.project.connection.profile=DefaultDS
+seam.project.deployment.type=ear
+seam.project.settings.version=1.1
+seam.project.web.root.folder=/dvdstore22/WebContent
+seam.runtime.name=Seam 2.2.EAP5
+seam.settings.changed.by.user=true
+seam.test.creating=true
+seam.test.project=dvdstore22-test
+test.package=org.domain.dvdstore22.test
+test.sources=/dvdstore22-test/test-src

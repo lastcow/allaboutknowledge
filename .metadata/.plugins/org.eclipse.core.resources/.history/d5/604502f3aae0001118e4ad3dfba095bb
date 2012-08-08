@@ -1,0 +1,67 @@
+package chens.net.allaboutknowledge.jpa.model;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+
+/**
+ * The persistent class for the personalinfo database table.
+ * 
+ */
+@Entity
+@Table(name="personalinfo")
+public class Personalinfo implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@SequenceGenerator(name="PERSONALINFO_INFOID_GENERATOR", sequenceName="SYSTEM-UUID")
+	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="PERSONALINFO_INFOID_GENERATOR")
+	@Column(unique=true, nullable=false, length=36)
+	private String infoid;
+
+	private Object info;
+
+	@Column(name="public", nullable=false)
+	private Object public_;
+
+	//bi-directional many-to-one association to Member
+	@ManyToOne
+	@JoinColumn(name="member", nullable=false)
+	private Member memberBean;
+
+	public Personalinfo() {
+	}
+
+	public String getInfoid() {
+		return this.infoid;
+	}
+
+	public void setInfoid(String infoid) {
+		this.infoid = infoid;
+	}
+
+	public Object getInfo() {
+		return this.info;
+	}
+
+	public void setInfo(Object info) {
+		this.info = info;
+	}
+
+	public Object getPublic_() {
+		return this.public_;
+	}
+
+	public void setPublic_(Object public_) {
+		this.public_ = public_;
+	}
+
+	public Member getMemberBean() {
+		return this.memberBean;
+	}
+
+	public void setMemberBean(Member memberBean) {
+		this.memberBean = memberBean;
+	}
+
+}

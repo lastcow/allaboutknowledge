@@ -1,0 +1,83 @@
+package chens.net.allaboutknowledge.jpa.model;
+
+import java.io.Serializable;
+import javax.persistence.*;
+import java.util.List;
+
+
+/**
+ * The persistent class for the education database table.
+ * 
+ */
+@Entity
+@Table(name="education")
+public class Education implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@SequenceGenerator(name="EDUCATION_EDUCATIONID_GENERATOR", sequenceName="SYSTEM-UUID")
+	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="EDUCATION_EDUCATIONID_GENERATOR")
+	@Column(unique=true, nullable=false, length=36)
+	private String educationid;
+
+	@Column(nullable=false, length=200)
+	private String school;
+
+	//bi-directional many-to-one association to Experienceyear
+	@ManyToOne
+	@JoinColumn(name="industryyear")
+	private Experienceyear experienceyear;
+
+	//bi-directional many-to-one association to Educationlevel
+	@ManyToOne
+	@JoinColumn(name="educationlevel", nullable=false)
+	private Educationlevel educationlevelBean;
+
+	//bi-directional many-to-one association to Member
+	@OneToMany(mappedBy="educationBean")
+	private List<Member> members;
+
+	public Education() {
+	}
+
+	public String getEducationid() {
+		return this.educationid;
+	}
+
+	public void setEducationid(String educationid) {
+		this.educationid = educationid;
+	}
+
+	public String getSchool() {
+		return this.school;
+	}
+
+	public void setSchool(String school) {
+		this.school = school;
+	}
+
+	public Experienceyear getExperienceyear() {
+		return this.experienceyear;
+	}
+
+	public void setExperienceyear(Experienceyear experienceyear) {
+		this.experienceyear = experienceyear;
+	}
+
+	public Educationlevel getEducationlevelBean() {
+		return this.educationlevelBean;
+	}
+
+	public void setEducationlevelBean(Educationlevel educationlevelBean) {
+		this.educationlevelBean = educationlevelBean;
+	}
+
+	public List<Member> getMembers() {
+		return this.members;
+	}
+
+	public void setMembers(List<Member> members) {
+		this.members = members;
+	}
+
+}

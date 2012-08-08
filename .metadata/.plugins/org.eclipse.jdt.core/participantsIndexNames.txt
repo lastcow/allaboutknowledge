@@ -1,0 +1,5 @@
+INDEX VERSION 1.126
+/Users/lastcow/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1673566554.index
+/dvdstore22/src
+/Users/lastcow/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/933926040.index
+/dvdstore22/src

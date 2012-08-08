@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package chens.net.allaboutknowledge.web.action;
+
+import javax.inject.Named;
+
+import org.jboss.solder.core.FullyQualified;
+
+/**
+ * @author lastcow
+ *
+ */
+@FullyQualified @Named
+public class HomeAction {
+
+	@WebnRemote
+	public String getStr(String name){
+		return "hello, " + name;
+	}
+}

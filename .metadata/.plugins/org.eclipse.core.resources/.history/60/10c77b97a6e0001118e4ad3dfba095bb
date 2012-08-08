@@ -1,0 +1,37 @@
+/**
+ * 
+ */
+package chens.net.allaboutknowledge.jpa.impl;
+
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+/**
+ * @author lastcow
+ *
+ */
+public class JpaResource {
+
+	private static EntityManagerFactory emf;
+	private static final String PersistenceUnit = "allaboutknowledge-jpa";
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// Just for testing only.
+
+	}
+	
+	/***
+	 * Create EntityManagerFactory
+	 * @return
+	 */
+	public static EntityManagerFactory getEMF(){
+		if(emf == null){
+			emf = Persistence.createEntityManagerFactory(PersistenceUnit);
+		}
+		
+		return emf;
+	}
+
+}

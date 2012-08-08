@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package chens.net.allaboutknowledge.web.action;
+
+import javax.inject.Named;
+
+import org.jboss.seam.remoting.annotations.WebRemote;
+import org.jboss.solder.core.FullyQualified;
+
+/**
+ * @author lastcow
+ *
+ */
+@FullyQualified @Named
+public class HomeAction {
+	
+	@Inject Messages messages;
+
+	@WebRemote
+	public String getStr(String name){
+		return "whats up, " + name;
+	}
+}

@@ -1,0 +1,43 @@
+/**
+ * 
+ */
+package chens.net.allaboutknowledge.web.beans;
+
+import java.io.Serializable;
+
+import javax.enterprise.context.SessionScoped;
+import javax.inject.Inject;
+import javax.inject.Named;
+
+import org.jboss.solder.core.FullyQualified;
+import org.jboss.solder.properties.Properties;
+import org.jboss.solder.resourceLoader.Resource;
+
+
+@FullyQualified @Named
+@SessionScoped
+/**
+ * @author lastcow
+ *
+ */
+public class User implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4703050258987999907L;
+	private String userName;
+	/**
+	 * 
+	 */
+	public User() {
+		this.setUserName(pro.toString());
+	}
+	public String getUserName() {
+		return this.userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+}

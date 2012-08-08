@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+externalMigrateFromAuthorizationDatabase/isMigrated=true
+migrateFromAuthorizationDatabase/isMigrated=true
+repositories/d0defc5f80db00111917e61dc4556cc6=d0defc5f80db00111917e61dc4556cc6;http\://anonsvn.jboss.org/repos/seam/branches/community/Seam_2_3/examples-ee6/dvdstore/;http\://anonsvn.jboss.org/repos/seam/branches/community/Seam_2_3/examples-ee6/dvdstore/;branches;tags;trunk;true;a9c07ecc-ef43-0410-a306-c911db474e88;http\://anonsvn.jboss.org/repos/seam;;false;;;0

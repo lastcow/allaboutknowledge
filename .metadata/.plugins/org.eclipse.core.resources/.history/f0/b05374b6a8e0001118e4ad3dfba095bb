@@ -1,0 +1,177 @@
+package chens.net.allaboutknowledge.jpa.model;
+
+import java.io.Serializable;
+import javax.persistence.*;
+import java.util.Date;
+import java.util.List;
+
+
+/**
+ * The persistent class for the question database table.
+ * 
+ */
+@Entity
+@Table(name="question")
+public class Question implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@SequenceGenerator(name="QUESTION_QUESTIONID_GENERATOR", sequenceName="SYSTEM-UUID")
+	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="QUESTION_QUESTIONID_GENERATOR")
+	@Column(unique=true, nullable=false, length=36)
+	private String questionid;
+
+	@Lob
+	private String brief;
+
+	@Lob
+	@Column(nullable=false)
+	private String content;
+
+	@Temporal(TemporalType.TIMESTAMP)
+	@Column(nullable=false)
+	private Date createddate;
+
+	@Column(nullable=false)
+	private float pointstosolve;
+
+	@Column(nullable=false, length=400)
+	private String title;
+
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date updatedate;
+
+	@Column(nullable=false)
+	private int viewcount;
+
+	//bi-directional many-to-one association to Membermonitquestion
+	@OneToMany(mappedBy="questionBean")
+	private List<Membermonitquestion> membermonitquestions;
+
+	//bi-directional many-to-one association to Memberparticipatequestion
+	@OneToMany(mappedBy="questionBean")
+	private List<Memberparticipatequestion> memberparticipatequestions;
+
+	//bi-directional many-to-one association to Status
+	@ManyToOne
+	@JoinColumn(name="status", nullable=false)
+	private Status statusBean;
+
+	//bi-directional many-to-one association to Category
+	@ManyToOne
+	@JoinColumn(name="category", nullable=false)
+	private Category categoryBean;
+
+	//bi-directional many-to-one association to Member
+	@ManyToOne
+	@JoinColumn(name="ahtuor", nullable=false)
+	private Member member;
+
+	public Question() {
+	}
+
+	public String getQuestionid() {
+		return this.questionid;
+	}
+
+	public void setQuestionid(String questionid) {
+		this.questionid = questionid;
+	}
+
+	public String getBrief() {
+		return this.brief;
+	}
+
+	public void setBrief(String brief) {
+		this.brief = brief;
+	}
+
+	public String getContent() {
+		return this.content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	public Date getCreateddate() {
+		return this.createddate;
+	}
+
+	public void setCreateddate(Date createddate) {
+		this.createddate = createddate;
+	}
+
+	public float getPointstosolve() {
+		return this.pointstosolve;
+	}
+
+	public void setPointstosolve(float pointstosolve) {
+		this.pointstosolve = pointstosolve;
+	}
+
+	public String getTitle() {
+		return this.title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public Date getUpdatedate() {
+		return this.updatedate;
+	}
+
+	public void setUpdatedate(Date updatedate) {
+		this.updatedate = updatedate;
+	}
+
+	public int getViewcount() {
+		return this.viewcount;
+	}
+
+	public void setViewcount(int viewcount) {
+		this.viewcount = viewcount;
+	}
+
+	public List<Membermonitquestion> getMembermonitquestions() {
+		return this.membermonitquestions;
+	}
+
+	public void setMembermonitquestions(List<Membermonitquestion> membermonitquestions) {
+		this.membermonitquestions = membermonitquestions;
+	}
+
+	public List<Memberparticipatequestion> getMemberparticipatequestions() {
+		return this.memberparticipatequestions;
+	}
+
+	public void setMemberparticipatequestions(List<Memberparticipatequestion> memberparticipatequestions) {
+		this.memberparticipatequestions = memberparticipatequestions;
+	}
+
+	public Status getStatusBean() {
+		return this.statusBean;
+	}
+
+	public void setStatusBean(Status statusBean) {
+		this.statusBean = statusBean;
+	}
+
+	public Category getCategoryBean() {
+		return this.categoryBean;
+	}
+
+	public void setCategoryBean(Category categoryBean) {
+		this.categoryBean = categoryBean;
+	}
+
+	public Member getMember() {
+		return this.member;
+	}
+
+	public void setMember(Member member) {
+		this.member = member;
+	}
+
+}

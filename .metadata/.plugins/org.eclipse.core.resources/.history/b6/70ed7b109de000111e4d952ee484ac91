@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="allaboutknowledge-ear">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="allaboutknowledge-web.war" deploy-path="/" handle="module:/resource/allaboutknowledge-web/allaboutknowledge-web">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="allaboutknowledge-jpa.jar" deploy-path="/lib" handle="module:/resource/allaboutknowledge-jpa/allaboutknowledge-jpa">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

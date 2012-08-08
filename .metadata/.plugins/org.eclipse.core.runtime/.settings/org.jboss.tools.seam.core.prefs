@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+org.jboss.tools.seam.core.hibernate.default.db.type=MySQL 5
+org.jboss.tools.seam.core.project.facet.config.template=template.jst.seam23
+org.jboss.tools.seam.core.project.facet.default.conn.profile=allaboutknowledge
+org.jboss.tools.seam.core.project.facet.last.server.name=jboss-6.1.0.Final
+org.jboss.tools.seam.core.runtime.list=name|jboss_seam_2.2.2_final|version|2.2|homeDir|/Users/lastcow/develop/framework/jboss-seam-2.2.2.Final|default|false,name|jboss-seam-2.3.0.Beta2|version|2.3|homeDir|/Users/lastcow/jboss-seam-2.3.0.Beta2|default|false,name|jboss-seam-2.2.1.Final|version|2.2|homeDir|/Users/lastcow/develop/framework/jboss-seam-2.2.1.Final|default|false,name|jboss-seam-2.2.2.Final|version|2.2|homeDir|/Users/lastcow/jboss-seam-2.2.2.Final|default|true,name|jboss-seam-2.3.0.Beta2_|version|2.3|homeDir|/Users/lastcow/develop/framework/jboss-seam-2.3.0.Beta2|default|true
+seam.packageStructure=editable
+seam.scopePresentation=label

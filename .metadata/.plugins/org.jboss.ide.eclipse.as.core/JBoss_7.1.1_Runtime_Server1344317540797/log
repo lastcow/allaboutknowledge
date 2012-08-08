@@ -1,0 +1,642 @@
+!SESSION 2012-08-07 13:28:45.409 -----------------------------------------------
+eclipse.buildId=I20120608-1400
+java.version=1.6.0_33
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/lastcow/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data /Users/lastcow/workspace -product org.eclipse.epp.package.jee.product -keyring /Users/lastcow/.eclipse_keyring -showlocation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 13:33:07.410
+!MESSAGE Module allaboutknowledge-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 13:33:07.786
+!MESSAGE Module allaboutknowledge-web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 13:33:07.813
+!MESSAGE Module seam-remoting.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 13:33:07.840
+!MESSAGE Module solder-impl.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 13:33:07.856
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-07 13:33:13.215
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-07 13:33:18.991
+!MESSAGE Server Startup Succeeded
+!SESSION 2012-08-07 13:53:34.248 -----------------------------------------------
+eclipse.buildId=I20120608-1400
+java.version=1.6.0_33
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/lastcow/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data /Users/lastcow/workspace -product org.eclipse.epp.package.jee.product -keyring /Users/lastcow/.eclipse_keyring -showlocation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 14:56:05.001
+!MESSAGE Module allaboutknowledge-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 14:56:05.214
+!MESSAGE Module allaboutknowledge-web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 14:56:05.252
+!MESSAGE Module seam-remoting.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 14:56:05.275
+!MESSAGE Module solder-impl.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 14:56:05.289
+!MESSAGE 2 files modified in module allaboutknowledge-jpa
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-07 14:56:11.128
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-07 14:56:16.947
+!MESSAGE Server Startup Succeeded
+!SESSION 2012-08-07 15:19:36.227 -----------------------------------------------
+eclipse.buildId=I20120608-1400
+java.version=1.6.0_33
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/lastcow/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/lastcow/.eclipse_keyring -showlocation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 16:43:05.319
+!MESSAGE Module allaboutknowledge-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 16:43:05.489
+!MESSAGE Module allaboutknowledge-web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 16:43:05.512
+!MESSAGE Module seam-remoting.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 16:43:05.540
+!MESSAGE Module solder-impl.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 16:43:05.564
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-07 16:43:11.318
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-07 16:43:17.209
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:01:16.296
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:01:50.661
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:02:07.934
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:03:30.133
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:03:44.260
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:04:51.990
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:05:04.164
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:18:54.607
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:20:09.276
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2012-08-07 22:29:20.200
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-07 22:29:20.380
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-07 22:29:20.391
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-07 22:29:20.398
+!MESSAGE Server processes have been terminated.
+!SESSION 2012-08-07 22:46:43.284 -----------------------------------------------
+eclipse.buildId=I20120608-1400
+java.version=1.6.0_33
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/lastcow/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/lastcow/.eclipse_keyring -showlocation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:48:02.113
+!MESSAGE Module allaboutknowledge-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:48:02.155
+!MESSAGE 5 files modified in module allaboutknowledge-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:48:02.203
+!MESSAGE Module seam-remoting.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:48:02.250
+!MESSAGE Module solder-impl.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:48:02.271
+!MESSAGE 32 files modified in module allaboutknowledge-jpa
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-07 22:48:07.951
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-07 22:48:13.633
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2012-08-07 22:49:04.339
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-07 22:49:04.479
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-07 22:49:04.490
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-07 22:49:04.499
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-07 22:49:17.210
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-07 22:49:22.876
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-07 22:51:32.757
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-07 22:51:32.805
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-07 22:51:32.820
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-07 22:51:44.794
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-07 22:51:50.357
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-07 22:55:25.053
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-07 22:55:25.060
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-07 22:55:25.067
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:55:47.989
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-07 22:55:53.033
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-07 22:55:58.481
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-07 22:56:35.333
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-07 22:56:35.345
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-07 22:56:35.353
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:56:56.895
+!MESSAGE Module allaboutknowledge-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:56:57.223
+!MESSAGE Module allaboutknowledge-web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:56:57.239
+!MESSAGE Module seam-remoting.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:56:57.261
+!MESSAGE Module solder-impl.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:56:57.274
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-07 22:57:07.225
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-07 22:57:12.886
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-07 22:57:53.819
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-07 22:57:53.827
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-07 22:57:53.835
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:58:09.206
+!MESSAGE Module allaboutknowledge-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:58:09.320
+!MESSAGE Module allaboutknowledge-web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:58:09.360
+!MESSAGE Module seam-remoting.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:58:09.391
+!MESSAGE Module solder-impl.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 22:58:09.403
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-07 22:58:18.055
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-07 22:58:23.629
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:06:03.767
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:06:56.773
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:07:06.923
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:07:26.423
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:08:11.201
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:08:59.408
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:10:55.511
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:11:10.129
+!MESSAGE Module allaboutknowledge-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:11:10.224
+!MESSAGE Module allaboutknowledge-web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:11:10.258
+!MESSAGE Module seam-remoting.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:11:10.294
+!MESSAGE Module solder-impl.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:11:10.340
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:38:31.834
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:40:58.928
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:41:20.068
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:41:57.876
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:42:36.554
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:43:12.667
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:45:58.758
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:46:07.918
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:47:43.638
+!MESSAGE 2 files modified in module allaboutknowledge-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:47:51.078
+!MESSAGE 2 files modified in module allaboutknowledge-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:47:57.327
+!MESSAGE Module allaboutknowledge-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:47:57.439
+!MESSAGE Module allaboutknowledge-web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:47:57.466
+!MESSAGE Module seam-remoting.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:47:57.493
+!MESSAGE Module solder-impl.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:47:57.522
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:52:32.769
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:53:03.740
+!MESSAGE 2 files modified in module allaboutknowledge-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:53:08.112
+!MESSAGE Module allaboutknowledge-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:53:08.211
+!MESSAGE Module allaboutknowledge-web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:53:08.237
+!MESSAGE Module seam-remoting.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:53:08.290
+!MESSAGE Module solder-impl.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:53:08.322
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2012-08-07 23:54:01.634
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-07 23:54:02.240
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842785 2012-08-07 23:54:02.264
+!MESSAGE Server Shutdown Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:54:50.623
+!MESSAGE Module allaboutknowledge-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:54:50.735
+!MESSAGE Module allaboutknowledge-web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:54:50.766
+!MESSAGE Module seam-remoting.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:54:50.811
+!MESSAGE Module solder-impl.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:54:50.845
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-07 23:55:00.232
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-07 23:55:05.906
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:57:34.164
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:58:45.460
+!MESSAGE Module allaboutknowledge-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:58:45.593
+!MESSAGE Module allaboutknowledge-web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:58:45.623
+!MESSAGE Module seam-remoting.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:58:45.655
+!MESSAGE Module solder-impl.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-07 23:58:45.690
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:02:53.655
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-08 00:03:07.754
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-08 00:03:07.762
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-08 00:03:07.772
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:03:14.628
+!MESSAGE Module allaboutknowledge-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:03:14.720
+!MESSAGE Module allaboutknowledge-web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:03:14.742
+!MESSAGE Module seam-remoting.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:03:14.772
+!MESSAGE Module solder-impl.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:03:14.825
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-08 00:03:22.573
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-08 00:03:28.354
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:07:47.829
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:07:53.509
+!MESSAGE Module allaboutknowledge-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:07:53.599
+!MESSAGE Module allaboutknowledge-web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:07:53.617
+!MESSAGE Module seam-remoting.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:07:53.641
+!MESSAGE Module solder-impl.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:07:53.683
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-08 00:10:17.997
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-08 00:10:18.007
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-08-08 00:10:18.016
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:11:50.655
+!MESSAGE Module allaboutknowledge-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:11:50.785
+!MESSAGE Module allaboutknowledge-web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:11:50.816
+!MESSAGE Module seam-remoting.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:11:50.870
+!MESSAGE Module solder-impl.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:11:50.908
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-08 00:11:59.003
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-08 00:12:09.970
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:13:10.124
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:13:21.691
+!MESSAGE Module allaboutknowledge-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:13:21.812
+!MESSAGE Module allaboutknowledge-web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:13:21.837
+!MESSAGE Module seam-remoting.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:13:21.870
+!MESSAGE Module solder-impl.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:13:21.921
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:14:25.609
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:14:30.086
+!MESSAGE Module allaboutknowledge-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:14:30.209
+!MESSAGE Module allaboutknowledge-web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:14:30.237
+!MESSAGE Module seam-remoting.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:14:30.291
+!MESSAGE Module solder-impl.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:14:30.324
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:15:36.598
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:15:40.573
+!MESSAGE Module allaboutknowledge-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:15:40.712
+!MESSAGE Module allaboutknowledge-web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:15:40.731
+!MESSAGE Module seam-remoting.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:15:40.767
+!MESSAGE Module solder-impl.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:15:40.802
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:16:44.833
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:16:49.087
+!MESSAGE Module allaboutknowledge-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:16:49.207
+!MESSAGE Module allaboutknowledge-web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:16:49.232
+!MESSAGE Module seam-remoting.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:16:49.258
+!MESSAGE Module solder-impl.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:16:49.296
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:18:09.250
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:18:13.143
+!MESSAGE Module allaboutknowledge-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:18:13.281
+!MESSAGE Module allaboutknowledge-web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:18:13.300
+!MESSAGE Module seam-remoting.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:18:13.328
+!MESSAGE Module solder-impl.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 00:18:13.372
+!MESSAGE Module allaboutknowledge-jpa published without error.
+!SESSION 2012-08-08 08:01:17.275 -----------------------------------------------
+eclipse.buildId=I20120608-1400
+java.version=1.6.0_33
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/lastcow/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/lastcow/.eclipse_keyring -showlocation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 08:02:05.579
+!MESSAGE Module allaboutknowledge-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 08:02:05.898
+!MESSAGE Module allaboutknowledge-web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 08:02:05.935
+!MESSAGE Module seam-remoting.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 08:02:05.982
+!MESSAGE Module solder-impl.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 08:02:06.012
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-08 08:02:11.709
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-08 08:02:17.584
+!MESSAGE Server Startup Succeeded
+!SESSION 2012-08-08 08:13:31.081 -----------------------------------------------
+eclipse.buildId=I20120608-1400
+java.version=1.6.0_33
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/lastcow/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/lastcow/.eclipse_keyring -showlocation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 08:14:03.085
+!MESSAGE Module allaboutknowledge-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 08:14:03.571
+!MESSAGE Module allaboutknowledge-web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 08:14:03.598
+!MESSAGE Module seam-remoting.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 08:14:03.621
+!MESSAGE Module solder-impl.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 08:14:03.698
+!MESSAGE Module allaboutknowledge-jpa published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-08-08 08:14:09.451
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-08-08 08:14:15.262
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-08-08 08:16:59.844
+!MESSAGE 2 files modified in module allaboutknowledge-web

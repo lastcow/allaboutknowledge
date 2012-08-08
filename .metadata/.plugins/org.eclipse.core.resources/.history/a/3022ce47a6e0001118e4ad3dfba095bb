@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package chens.net.allaboutknowledge.jpa.impl;
+
+/**
+ * @author lastcow
+ *
+ */
+public class JpaResource {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

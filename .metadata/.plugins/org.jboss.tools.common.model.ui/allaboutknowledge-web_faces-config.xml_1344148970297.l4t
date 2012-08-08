@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout resource="/allaboutknowledge-web/WebContent/WEB-INF/faces-config.xml">
+ <TreeFormPage>
+  <Memento type="FacesConfig20">
+   <Memento collapsed="false" type="Factories"/>
+   <Memento collapsed="false" type="Lifecycle"/>
+   <Memento collapsed="false" type="Advanced"/>
+  </Memento>
+  <Memento type="">
+   <Memento type="Properties Editor"/>
+  </Memento>
+ </TreeFormPage>
+</Layout>

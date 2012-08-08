@@ -1,0 +1,47 @@
+/**
+ * 
+ */
+package chens.net.allaboutknowledge.web.beans;
+
+import java.io.Serializable;
+import java.net.URL;
+
+import javax.enterprise.context.SessionScoped;
+import javax.inject.Inject;
+import javax.inject.Named;
+
+import org.jboss.solder.core.FullyQualified;
+import org.jboss.solder.resourceLoader.Resource;
+
+
+@FullyQualified @Named
+@SessionScoped
+/**
+ * @author lastcow
+ *
+ */
+public class User implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4703050258987999907L;
+	private String userName;
+	
+	@Inject
+	@Resource("WEB-INF/beans.xml")
+	URL beanXmlUrl;
+	/**
+	 * 
+	 */
+	public User() {
+		this.setUserName("zhijiang chen");
+	}
+	public String getUserName() {
+		return this.userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+}

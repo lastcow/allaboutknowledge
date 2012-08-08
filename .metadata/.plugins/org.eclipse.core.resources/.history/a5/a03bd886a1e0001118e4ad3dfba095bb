@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package chens.net.allaboutknowledge.jpa.sequence;
+
+/**
+ * @author lastcow
+ *
+ */
+public class UUIDSequence {
+
+}
