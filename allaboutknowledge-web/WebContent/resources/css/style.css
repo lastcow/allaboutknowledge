@@ -600,7 +600,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 /*	Content
 /* ---------------------------------------------------------------------- */
 
-#content { padding-top: 40px; }
+#content { }
 
 .ie7 #content { padding-top: 25px; }
 

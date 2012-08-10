@@ -1,0 +1,135 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	template="/templates/common.xhtml">
+	<ui:define name="customCssHead">
+		<h:outputStylesheet library="css" name="fancybox.min.css" />
+	</ui:define>
+	<ui:define name="pageTitle">#{msgs['page.home.title']}</ui:define>
+
+	<ui:define name="body">
+		<section id="features-slider" class="ss-slider">
+			<article class="slide">
+				<img src="../img/placeholders/slider-slide-1.jpg" alt="" class="slide-bg-image" />
+				<div class="slide-button">
+					<span class="dropcap">I</span>
+					<h5>Share Knowledge</h5>
+					<span class="description">From people to people</span>
+				</div>
+			
+				<div class="slide-content">
+					<h2>Responsive Layout</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec purus justo.</p>
+					<p><a class="button" href="#">Read More</a></p>
+				</div>
+			</article><!-- end .slide (Responsive Layout) -->
+		
+			<article class="slide">
+				<img src="../img/placeholders/slider-slide-2.jpg" alt="" class="slide-bg-image" />
+				<div class="slide-button">		
+					<span class="dropcap">II</span>
+					<h5>HTML5 / CSS3</h5>
+					<span class="description">For today and tomorrow</span>
+				</div>
+				
+				<div class="slide-content">
+					<h2>HTML5 / CSS3</h2>
+					<p>Hendrerit eleifend condimentum quis, varius at lacus. Donec ultrices justo scelerisque erat feugiat sed mattis justo volutpat.</p>
+					<p><a class="button" href="#">Read More</a></p>
+				</div>
+				
+			</article><!-- end .slide (HTML5 / CSS3) -->
+		
+			<article class="slide">
+				<img src="../img/placeholders/slider-slide-3.jpg" alt="" class="slide-bg-image" />
+				<div class="slide-button">
+					<span class="dropcap">III</span>
+					<h5>Easily Customisable</h5>
+					<span class="description">Build the way you want!</span>
+				</div>
+				
+				<div class="slide-content">
+					<h2>Easily Customisable</h2>
+					<p>Etiam at nunc felis, vitae gravida libero. Morbi molestie elit eget metus volutpat vitae bibendum quam lacinia. Maecenas porttitor blandit nisl sit amet blandit. Phasellus porta sodales accumsan.</p>
+					<p><a class="button" href="#">Read More</a></p>
+				</div>
+				
+			</article><!-- end .slide (Easily Customisable) -->
+		
+			<article class="slide">
+				<img src="../img/placeholders/slider-slide-4.jpg" alt="" class="slide-bg-image" />
+				<div class="slide-button">
+					<span class="dropcap">IV</span>
+					<h5>Unique &amp; Clean</h5>
+					<span class="description">Stand out from the crowd!</span>
+				</div>
+				
+				<div class="slide-content">
+					<h2>Unique &amp; Clean</h2>
+					<p>Fusce porta elit quis nunc mollis ut lacinia eros accumsan. Aenean consequat egestas diam, vel pharetra tellus venenatis in.</p>
+					<p><a class="button" href="#">Read More</a></p>
+				</div>
+				
+			</article><!-- end .slide (Unique & Clean) -->
+			
+		</section><!-- end #features-slider -->
+		
+		<div class="two-third">
+			<div class="infobox">
+				<h3>Why All About Knowledge</h3>
+				<p>
+					#{msgs['label.whyallaboutknowledge']}
+				</p>
+				<div class="one-fourth">
+					<ul class="check-2 dotted">
+						<li> Hi </li>
+					</ul>
+				</div>
+				<div class="one-fourth">
+					<ul class="check-2 dotted">
+						<li> Hi </li>
+					</ul>
+				</div>
+				
+				<a class="button large" href="javascript: void();">Learn How it Works</a> OR <a class="button large" href="javascript: void();">Sign Up Ask Question</a>
+			</div>
+			
+			<h4>Featured</h4>
+			<ul class="tabs-nav">
+				<li>
+					<a href="#tab1">Featured Articles</a>
+				</li>
+				<li>
+					<a href="#tab2">Top Knowledges</a>
+				</li>
+			</ul>
+			<div class="tabs-container">
+				<div id="tab1" class="tab-content" style="display: block;"> 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl orci, condim entum ultrices consequat eu, vehicula ac mauris. Ut adipiscing, leo nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+				<div id="tab2" class="tab-content" style="display: hidden">2. abc</div>
+			</div>
+			
+			<h4>Recent Activity</h4>
+			<ul class="tabs-nav">
+				<li>
+					<a href="#ratab1">Open Questions</a>
+				</li>
+				<li>
+					<a href="#ratab2">Answered Questions</a>
+				</li>
+				<li>
+					<a href="#ratab3">Articls</a>
+				</li>
+			</ul>
+		</div>
+		<div class="one-third last">	
+			<h:message showSummary="true" showDetail="false" style="color: red; font-weight: bold;" for="inputname" />
+			<h:inputText id="inputname"  value="#{chens.net.allaboutknowledge.web.beans.user.userName}">
+				
+			</h:inputText>
+			<a id="ajaxTestBtn" class="button"  >Ajax Test Buton</a>
+		</div>
+		
+
+	</ui:define>
+</ui:composition>
